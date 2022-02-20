@@ -82,7 +82,7 @@ def accept_match():
     if accept != None:
         print("Akceptuje mecz")
         pyautogui.click(accept)
-        time.sleep(5)
+        time.sleep(12)
         select_champ = True
     else:
         print("Nie akceptuje")
